@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { Navbar, Sidebar, Footer } from './components'
-import {Hero,  CartContent,  StripeCheckout,  Contact,  ProductList, CheckoutPage, Product } from './components'
+import {Hero,  CartContent,  StripeCheckout,  Contact,  ProductList,  Product } from './components'
 import ErrorPage from './pages/ErrorPage'
 import AboutPage from './pages/AboutPage'
 import HomePage from './pages/HomePage'
@@ -10,6 +10,7 @@ import ProductsPage from './pages/ProductsPage'
 import CartPage from './pages/CartPage'
 import PrivateRoute from './pages/PrivateRoute'
 import AuthWrapper from './pages/AuthWrapper'
+import CheckoutPage from './pages/CheckoutPage'
 
 
 function App() {
@@ -49,9 +50,9 @@ function App() {
        <ErrorPage/>
      </Route>
 
-      <Route  path ='/checkout'>
+      {/* <Route  path ='/checkout'>
        <StripeCheckout/>
-     </Route> 
+     </Route>  */}
       
       </Switch>
       <Footer/>

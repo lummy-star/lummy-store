@@ -17,7 +17,8 @@ import Stars from './Stars'
 import CartContent from './CartContent'
 import PageHero from './PageHero'
 import StripeCheckout from './StripeCheckout'
-import CheckoutPage from '../pages/CheckoutPage'
+import PaymentPage from '../pages/CheckoutPage'
+import PaymentForm from './PaymentForm'
 export {
   FeaturedProducts,
   Navbar,
@@ -38,5 +39,6 @@ export {
   CartContent,
   PageHero,
   StripeCheckout,
-  CheckoutPage
+  PaymentPage,
+   PaymentForm
 }
