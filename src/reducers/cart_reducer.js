@@ -86,6 +86,7 @@ const cart_reducer = (state = {}, action) => {
     },{
       total_item:0, total_amount:0
     })
+
     return {...state, total_item, total_amount}
   }
  

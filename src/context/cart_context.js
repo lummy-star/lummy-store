@@ -20,7 +20,7 @@ if(cart) {
 
 const initialState = {
   cart:  getLocalStorage(),
-  total_items: 0,
+  total_item: 0,
   total_amount: 0,
   delivery_fee: 2000 
 }
